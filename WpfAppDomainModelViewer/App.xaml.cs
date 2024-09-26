@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Kae.DomainModel.CSharp.Utilitiy.Application.WpfAppDomainModelViewer
+namespace Kae.DomainModel.CSharp.Utilitiy.Tools.WpfAppDomainModelViewer
 {
     /// <summary>
     /// Interaction logic for App.xaml

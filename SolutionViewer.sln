@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.35230.98
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kae.DomainModel.CSharp.Utilitiy.Tools.WpfAppDomainModelViewer", "WpfAppDomainModelViewer\Kae.DomainModel.CSharp.Utilitiy.Tools.WpfAppDomainModelViewer.csproj", "{7621883C-FF99-43AD-9E34-1C00C29E5958}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kae.DomainModel.CSharp.Utility.Application.WebAPIAppDomainModelViewer", "WebAPIAppDomainModelViewer\Kae.DomainModel.CSharp.Utility.Application.WebAPIAppDomainModelViewer.csproj", "{AB87400E-2318-43CD-BC3A-B02EF24153EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7621883C-FF99-43AD-9E34-1C00C29E5958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7621883C-FF99-43AD-9E34-1C00C29E5958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7621883C-FF99-43AD-9E34-1C00C29E5958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7621883C-FF99-43AD-9E34-1C00C29E5958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB87400E-2318-43CD-BC3A-B02EF24153EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB87400E-2318-43CD-BC3A-B02EF24153EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB87400E-2318-43CD-BC3A-B02EF24153EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB87400E-2318-43CD-BC3A-B02EF24153EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E30AB13-1C95-47CF-8299-7BEEE2D890CA}
+	EndGlobalSection
+EndGlobal

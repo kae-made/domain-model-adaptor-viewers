@@ -15,7 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Kae.DomainModel.CSharp.Utilitiy.Application.WpfAppDomainModelViewer
+namespace Kae.DomainModel.CSharp.Utilitiy.Tools.WpfAppDomainModelViewer
 {
     /// <summary>
     /// WindowOfInstance.xaml の相互作用ロジック

@@ -19,7 +19,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Kae.DomainModel.CSharp.Utilitiy.Application.WpfAppDomainModelViewer
+namespace Kae.DomainModel.CSharp.Utilitiy.Tools.WpfAppDomainModelViewer
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

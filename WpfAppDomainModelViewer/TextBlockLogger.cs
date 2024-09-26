@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 
-namespace Kae.DomainModel.CSharp.Utilitiy.Application.WpfAppDomainModelViewer
+namespace Kae.DomainModel.CSharp.Utilitiy.Tools.WpfAppDomainModelViewer
 {
     public class TextBlockLogger : Logger
     {
@@ -16,7 +16,7 @@ namespace Kae.DomainModel.CSharp.Utilitiy.Application.WpfAppDomainModelViewer
         {
             this.tb = tb;
         }
-        protected override Task LogInternal(Level level, string log, string timestamp)
+        protected override Task LogInternal(Level level, string log, string timestamp, Exception ex)
         {
             return Task.Run(() =>
             {
@@ -25,6 +25,10 @@ namespace Kae.DomainModel.CSharp.Utilitiy.Application.WpfAppDomainModelViewer
                     var sb = new StringBuilder(tb.Text);
                     var writer = new StringWriter(sb);
                     writer.WriteLineAsync($"[{level.ToString()}]{timestamp}:{log}");
+                    if (ex != null)
+                    {
+                        writer.WriteLineAsync($"Exception - ex.ToString()");
+                    }
                 });
             });
         }
